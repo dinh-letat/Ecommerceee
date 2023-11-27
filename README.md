@@ -42,6 +42,8 @@
    - Create Java classes to ... for entities in database.
    - Build JPARepository to interact with database.
    - Implement business logic in Services.
+   - Step By Step:
+        - User
 3. Build API Restful:
    - Use @RestController to build APIs for create, update, delete and get infomation from database.
    - Ensure handle request and response the data in JSON format.
