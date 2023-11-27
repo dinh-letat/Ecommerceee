@@ -1,0 +1,22 @@
+
+.main{
+  background-color: #eeebeb;
+}
+li{
+list-style: none;
+}
+a{
+text-decoration: none;
+color: black; 
+}
+a:hover{
+color: rgb(90, 90, 233);
+text-decoration: none;
+}
+main{
+  height: 100vh;
+}
+
+
+
+
