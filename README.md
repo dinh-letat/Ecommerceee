@@ -44,9 +44,13 @@
    - Implement business logic in Services.
    - Step By Step:
         - User
-3. Build API Restful:
+        - Product
+2. Build Controller:
+   - User:
+   - Controller: GET(/product), GET(/product/{id}), POST(/product), PUT(/product/{id}), DELETE(/product/{id})
+4. Build API Restful:
    - Use @RestController to build APIs for create, update, delete and get infomation from database.
    - Ensure handle request and response the data in JSON format.
-4.  Connect Frontend to Backend:
+5.  Connect Frontend to Backend:
    - Establish HTTP request from frontend to call APIs from backend.
    - Handle data returned from API and display this to frontend
