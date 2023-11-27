@@ -6,7 +6,7 @@
 ### Step 1: Prepare delevopment environment ###
 1. Create Front End with HTML/CSS/JavaScript/Bootstrap 4/Thymeleaf
    - 
-3. Setup Java and Spring Boot:
+2. Setup Java and Spring Boot:
    - Setup Java Development Kit (JDK): https://www.oracle.com/java/technologies/javase-downloads.html
    - Setup Spring Initializer to create a Spring Boot Project: https://start.spring.io/
    - Add dependencies to your project:
@@ -19,7 +19,7 @@
         + Thymeleaf: `spring-boot-starter-thymeleafspring-boot-starter-thymeleaf`
         + Spring Security: `spring-boot-starter-security`
         + H2 Database: `h2`
-4. Setup MySQL:
+3. Setup MySQL:
    - Setup MySQL Server: https://dev.mysql.com/downloads/mysql/
    - Create a database for your project, database has name "booking_ticket"
    - Database has 7 table: users, tours, bookings, reviews, images, payments, locations
