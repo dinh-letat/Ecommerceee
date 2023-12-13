@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "functions": {
+    "api": {
+      "runtime": "vercel/java@0.3",
+      "memory": 128,
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "backend.jar"
+    }
+  ],
+  "env": {
+    "PORT": 8080
+  }
+}
